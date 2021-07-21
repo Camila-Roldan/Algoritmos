@@ -1,0 +1,13 @@
+#Conversor de dólares a pesos 
+
+Algoritmo Conversor_moneda
+	
+  Escribir "Por favor digite el monto en dólares a convertir a pesos"
+	
+  Leer Dólares
+	
+  Pesos <- Dólares*3794.02
+	
+  Escribir "La cantidad de pesos ingresada corresponde a:", Pesos
+
+FinAlgoritmo
