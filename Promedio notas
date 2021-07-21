@@ -1,0 +1,34 @@
+Algoritmo Notas
+
+	
+  Definir n, acum, prom Como real;
+	
+  acum <- 0 
+	
+  Escribir "Digite la cantidad de notas del estudiante"
+	
+  Leer n
+	
+  Dimension Vector[n]
+	
+  para i <- 1 hasta n Con Paso 1 Hacer
+		
+    Escribir "Ingrese la nota del estudiante"
+		
+    leer v 
+		
+    Vector[i] <- v
+	
+  FinPara
+	
+  Para j<-  1 hasta n con paso 1 hacer 
+		
+    acum <- acum + vector[j]
+	
+  FinPara
+	
+  prom <- acum/n
+	
+  Escribir "El promedio del arreglo es",prom 
+
+FinAlgoritmo
