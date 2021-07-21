@@ -1,0 +1,34 @@
+
+Algoritmo Notas
+	
+  Escribir "Digite el número de notas"
+	
+  Leer n;
+	
+  Definir nota,totalnotas Como real
+	
+  Definir promedio Como Real
+	
+  Dimension nota[n]
+	
+  Contador <- 0; 
+	
+  totalnotas <- 0; 
+	
+  Repetir
+		
+    Escribir "Digite la nota" , (Contador+1) , "del estudiante";
+		
+    Leer nota[Contador]
+		
+    totalnotas <- totalnotas+nota[Contador];
+		
+    Contador <- Contador+1;
+	
+  Hasta Que Contador>=n; 
+	
+	promedio <- totalnotas/n
+	
+  Escribir "El promedio de notas es" , promedio
+	
+FinAlgoritmo
