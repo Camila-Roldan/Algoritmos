@@ -1,0 +1,23 @@
+#Calculadora de descuentos
+
+Algoritmo Descuento
+	
+  Escribir "Este programa cálcula el 25% de descuento de un artículo"
+	
+  Escribir "Por favor digite el valor del producto al que desea aplicarle el descuento"
+	
+  Leer precioproducto
+	
+  Preciobase <- precioproducto * 0.84
+	
+  IVA <- precioproducto * 0.16
+	
+  Valordescuento <- Preciobase * 0.25
+	
+  Preciocondescuento <- Preciobase - Valordescuento
+	
+  Preciofinal <- Preciocondescuento + IVA 
+	
+  Escribir Sin Saltar "El precio final de producto con el 25% de descuento más el valor del IVA corresponde a ", Preciofinal
+
+FinAlgoritmo
