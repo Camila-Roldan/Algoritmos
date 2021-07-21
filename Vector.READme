@@ -1,0 +1,21 @@
+#Algoritmo vector
+
+Definir vect,x,i,n como Entero;
+	
+  n <- 12 
+	
+  Dimension vect(n)
+	
+  Para x = 1 hasta n hacer 
+		
+    vect(x) = azar (10)
+	
+  FinPara
+	
+  Para i = 1 hasta n Hacer
+		
+    Imprimir vect(i) 
+	
+  FinPara
+
+FinAlgoritmo
