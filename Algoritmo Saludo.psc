@@ -4,22 +4,24 @@
 
 Algoritmo Saludo
 	
-  Definir nombre, apellido, ncompleto Como texto 
+	Definir nombre, apellido, ncompleto1, ncompleto2 Como texto 
 	
-  intro1 <-"Bienvenido, por favor escriba su nombre"
+	intro1 <-"Bienvenido, por favor escriba su nombre"
 	
-  intro2 <- "Ahora, por favor escriba su apellido"
+	intro2 <- "Ahora, por favor escriba su apellido"
 	
-  Escribir intro1
+	Escribir intro1
 	
-  Leer nombre
+	Leer nombre
 	
-  Escribir intro2
+	Escribir intro2
 	
-  Leer apellido
+	Leer apellido
 	
-  ncompleto <- Concatenar(nombre,apellido)
+	ncompleto1 <- Concatenar(nombre, " ") 
 	
-  Escribir "Buenas tardes," ncompleto,  "gracias por participar."
+	ncompleto2 <- Concatenar(ncompleto1, apellido) 
+	
+	Escribir "Buenas tardes, " ncompleto2, " gracias por participar."
 
 FinAlgoritmo
