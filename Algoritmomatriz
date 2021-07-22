@@ -1,0 +1,41 @@
+Algoritmo promedio
+	
+  Definir a, b, f, c, x, yy, matriz, acumfila, prom Como Real
+	
+  f <- 4
+	
+  c <- 5
+	
+  Dimension matriz[f,c]
+	
+  para a = 1 hasta f Hacer
+		
+    para b = 1 hasta c hacer
+			
+      Escribir "Ingrese la nota ", b, " del estudiante ", a
+			
+      leer matriz[a,b]
+		
+    FinPara
+	
+  FinPara
+	
+	
+  para x = 1 hasta f Hacer
+		
+    acumfila = 0
+		
+    para yy = 1 hasta c hacer
+			
+      acumfila <- acumfila + matriz[x,yy]
+		
+    FinPara
+		
+    prom = acumfila/c
+		
+		Escribir "El promedio del estudiante ", x, " es de: ", prom
+		
+	
+  FinPara
+
+FinAlgoritmo
